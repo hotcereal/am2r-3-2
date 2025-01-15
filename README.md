@@ -28,9 +28,11 @@ You can find the Android apk of AM2R with the 3:2 mod pre-applied on archive.org
 
 You'll need to do the below steps in the following order:
 
-zz Download [AM2RLauncher 2.3.0](https://github.com/Rex109/AM2R-Steam-deck-aspect-ratio-fix)
-zz.Download and install the latest version of [Java](https://www.java.com/download/ie_manual.jsp) (if on Windows)
-zz You will need to source a download of AM2R v1.1. It should be a zip file. It is currently on the same internet archive mentioned above.
+Download [AM2RLauncher 2.3.0](https://github.com/Rex109/AM2R-Steam-deck-aspect-ratio-fix)
+
+ Download and install the latest version of [Java](https://www.java.com/download/ie_manual.jsp) (if on Windows)
+ 
+ You will need to source a download of AM2R v1.1. It should be a zip file. It is currently on the same internet archive mentioned above.
 
 - Open AM2RLauncher
 - Hit the **Download** button, wait for it to finish.
