@@ -1,7 +1,8 @@
 # AM2R for 3:2 Devices
 AM2R, but now in 3:2.
 
-![am2322](https://github.com/user-attachments/assets/be17f77d-2a27-40a4-b045-b009a5484108)
+![am2r3f](https://github.com/user-attachments/assets/0541560d-ae0a-4b6b-9d2c-02830ef12c6a)
+
 
 ## ✨ Getting Started
 
