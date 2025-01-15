@@ -1,6 +1,8 @@
 # AM2R for 3:2 Devices
 AM2R, but now in 3:2.
 
+![am2322](https://github.com/user-attachments/assets/be17f77d-2a27-40a4-b045-b009a5484108)
+
 ## Getting Started
 
 This is heavily built off the back of the work @Rex109 has done to get AM2R running without any black borders on the [Steam Deck's 16:10 resolution](https://github.com/Rex109/AM2R-Steam-deck-aspect-ratio-fix). This simply uses the same work and modifies it in the same ways to get it running on 3:2 devices.
@@ -15,16 +17,13 @@ If this write-up is ugly, I will prettify it later. For now, this is just an inf
 
 ## Installation
 
-Visit the [Releases](#releases) to download the mod. As of right now, I only have Windows and Linux versions available despite me myself running macOS. Why? I'm a sadist, that's why. If for some reason you have a Windows or macOS computer running at 3:2, you can simply load the mod into the AM2RLauncher and play it there. 
+Visit the [Releases](https://github.com/hotcereal/am2r-3-2/releases) to download the mod. As of right now, I only have Windows and Linux versions available despite me myself running macOS. Why? I'm a sadist, that's why. If for some reason you have a Windows or macOS computer running at 3:2, you can simply load the mod into the AM2RLauncher and play it there. 
 NOTE: This mod effectively disables widescreen (16:9) support. Meaning, your options are 4:3 or 3:2 when you toggle widescreen ON via the Display Settings from within AM2R's Options menu.
 
 The source files you see on the repository itself can be used alongside [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) to compile a raw Windows mods and [Atomic](https://github.com/AM2R-Community-Developers/Atomic) to build one that will work with AM2RLauncher. 
+
 Then take that resulting zip and follow the longer list of detailed steps below.
-  • I am genuinely sorry, but I cannot be assed to work back all the steps here, but @Rex109 has his SteamDeck 16:10 mod available with all the needed steps, if you desire to build this manually. 
-
-## Desktop Installation
-
-If you're playing on a 3:2 monitor or some such, you can just use the [latest release](#latest) and load it into AM2RLauncher following the steps for loading the mod below. After that, you're set. 
+  • I am genuinely sorry, but I cannot be assed to work back all the steps here, but @Rex109 has their [SteamDeck 16:10 mod available with all the needed steps](https://github.com/Rex109/AM2R-Steam-deck-aspect-ratio-fix), if you desire to build this manually. 
 
 ### PortMaster
 
@@ -57,11 +56,22 @@ You'll need to do the below steps in the following order:
 - Hit **Create APK**
   * After a short while, an APK named **3x2 AM2R Bang.apk** while be created in the same directory as the *AM2RLauncher.exe*.
  
-### Finishing Up
+## Desktop Installation
+
+If you're playing on a 3:2 monitor or some such, you can just use the [latest release](https://github.com/hotcereal/am2r-3-2/releases#latest) and load it into AM2RLauncher following the steps for loading the mod below. After that, you're set. 
+
+ 
+## Finishing Up
 
 If you're using PortMaster on the RG34XX like I imagine all of you are, you'll need to take this apk and place it inside of your `AM2R` folder, probably inside of your `ports` folder on the microSD card you are using, and rename it so its entire filename is `am2r.apk`. 
 
-#### 2x GBA Resolution (480 x 320) Devices
+Once you're in the game, be sure to visit Options > Display Options and sure the below entries are set...as shown below.
+
+* **Fullscreen**: Enabled
+* **Display Scale**: 2x
+* * **Widescreen**: Enabled
+
+### 2x GBA Resolution (480 x 320) Devices
 
 If you're on a device that supports 2x GBA resolution (PowKiddy V10, Anbernic RG351M, RG351P), you will have to do a little bit more, with a little less precision. 
 
@@ -78,7 +88,7 @@ In your `AM2R` folder that's created once you install and run the game, you'll h
   This will then give you 3:2 at your resolution. A lil fuss, but nothing crazy. You can make small edits like this using the on-device Dingux Commander app or whichever File Browser you choose. 
 
 
-##### Potential Problems
+### Potential Problems
 
 While building this for release, I had numerous problems attempting to build the base apk on Windows due to decompilation errors. If you are tech savvy enough, or if you have a spare PC lying around, I found that using Linux for everything was by far easier. I have included a Linux version of this initial release for those of you willing to venture into the depth of unix.
 
