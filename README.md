@@ -51,7 +51,7 @@ You'll need to do the below steps in the following order:
   * Nothing will "happen" once you hit *Open*, but the button will change to say **Install**.
 - Hit the **Install** button, wait for it to finish.
 - Hit *Mod Settings* in the top navigation bar, should be the one on the furthest right.
-- Hit **Add New Mod** and find the Windows zip you've downloaded from the [Releases](#releases) page.
+- Hit **Add New Mod** and find the Windows zip you've downloaded from the [Releases](https://github.com/hotcereal/am2r-3-2/releases) page.
 - Hit *Play* in the navigation bar (furthest left)
 - Make sure the *Current Profile* is the one titled **3x2 AM2R Bang**
 - Hit **Create APK**
