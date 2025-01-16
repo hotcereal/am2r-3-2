@@ -75,9 +75,9 @@ Once you're in the game, be sure to visit Options > Display Options and sure the
 * **Display Scale**: 2x
 * **Widescreen**: Enabled
 
-### ✨ 2x (480 x 320) & 3x (960 x 640)  GBA Resolution Devices
+### ✨ 2x (480 x 320) & 4x (960 x 640)  GBA Resolution Devices
 
-If you're on a device that supports 2x GBA resolution (PowKiddy V10, Anbernic RG351M, RG351P) or 3x like the AYANEO Pocket Micro, you will have to do a little bit more, with a little less precision. 
+If you're on a device that supports 2x GBA resolution (PowKiddy V10, Anbernic RG351M, RG351P) or 4x like the AYANEO Pocket Micro, you will have to do a little bit more, with a little less precision. 
 
 In your `AM2R` folder that's created once you install and run the game, you'll have a file called `config.ini` resting inside the `ports\am2r\conf\am2r` folder and within it, you will see a line like below.
 
@@ -91,7 +91,7 @@ Be sure that you've opened the game and set the Game Settings listed above. If y
 
   ```Scale="1.333333"```
 
-  #### AYANEO Pocket Micro Users
+  ####   💫 AYANEO Pocket Micro Users
 
   You guys will need to set your scale property to 
 
